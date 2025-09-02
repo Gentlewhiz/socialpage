@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Serif:
+            ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 27%, 9%);
+    }
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 32px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin: 5% auto;
+    padding:16px;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.container .location {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.container .abtme {
+    font-size: 15px;
+    margin-bottom: 32px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.container a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.container a button {
+    background-color: hsl(0, 0%, 12%);
+    border: none;
+    color:  hsl(0, 0%, 100%);
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.container a button:hover {
+    background-color:hsl(75, 94%, 57%);
+}
+
+.attribution{
+    font-size: 14px;
+    text-align: center;
+    color: #999999;
+    margin-top: 32px;
+    align-items: center;
+}
+@media(min-width:481px){
+    body{
+        background: rgba(90, 90, 90, 0.995);
+    }
+}
+@media (max-width:480px){
+    .container{
+        width: 90%;
+        margin: 15% auto;
+    }
+}
+</style>
+<body>
+  <div class="container">
+    <img src="js.jpg">
+    <h1>Ibrahim Odunsi</h1>
+    <p class="location">Lagos, Nigeria</p>
+    <p class="abtme">"Front-end developer."</p>
+    <a href="https://github.com/Gentlewhiz" target="blank"><button type="submit" class="github">GitHub</button></a>
+    <a href="https://www.frontendmentor.io?ref=challenge" target="blank"><button type="submit" class="front">Front-end Mentor</button></a>
+    <a href="https://www.linkedin.com/in/ayomide-odunsi-518bb931a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><button type="submit" class="link">LinkedIn</button></a>
+    <a href="https://x.com/hsuperlizer?s=21" target="blank"><button type="submit" class="tweet">Twitter</button></a>
+    <a href="https://www.instagram.com/odunsi163?igsh=OGQ5ZDc2ODk2ZA" target="blank"><button type="submit" class="insta">Instagram</button></a>
+</body>
+</html>
